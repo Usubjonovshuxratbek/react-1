@@ -1,0 +1,364 @@
+.about {
+    position: relative;
+
+    .box {
+        background-image: url(../../assets/img/studet-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 780px;
+        margin-top: 128px;
+
+        button {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            padding: 4px 8px;
+            border: none;
+            color: #1F2937;
+            background: #FFFFFF;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 96px 590px 0 590px;
+        }
+
+        h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            color: #1F2937;
+            margin: 11px 366px 0 366px;
+        }
+
+        h6 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            margin: 29px 325px 0 325px;
+            color: #4B5563;
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 79px;
+        }
+
+        .card-1 {
+            width: 400px;
+            height: 328px;
+            background: #FFFFFF;
+            border-radius: 16px;
+
+            img {
+                width: 336px;
+                height: 20px;
+                margin: 32px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 27px;
+                width: 308px;
+                height: 108px;
+                padding: 0 0 0 32px;
+                color: #1F2937;
+            }
+
+            .users {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #111827;
+                }
+
+                a {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: #6B7280;
+                }
+            }
+        }
+    }
+
+    .blog-bg {
+        background: #00353B;
+        height: 1350px;
+    }
+
+    .blog {
+        padding-top: 128px;
+
+        button {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            cursor: pointer;
+            background: #FCD8CA;
+            border-radius: 4px;
+            padding: 4px 8px;
+            color: #1F2937;
+        }
+
+        .post {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 11px;
+        }
+
+        h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            color: #FFFFFF;
+        }
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #1F2937;
+            padding: 13px 25px;
+            background: #FFFFFF;
+            text-decoration: none;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+        }
+    }
+
+    .blogs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 84px;
+    }
+
+    .blog-1 {
+        width: 405px;
+        height: 604px;
+        background-color: #FFFFFF;
+
+        .photo {
+            width: 405px;
+            height: 300px;
+        }
+
+        .btn {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            cursor: pointer;
+            color: #111827;
+            background: #AADEA8;
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 24px 0 0 24px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            width: 285px;
+            height: 68px;
+            padding: 8px 0 0 24px;
+            color: #1F2937;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            padding: 7px 0 0 24px;
+            width: 317px;
+            height: 48px;
+            color: #4B5563;
+        }
+
+        .link {
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+        }
+    }
+
+    .blog-2 {
+        width: 405px;
+        height: 604px;
+        background-color: #FFFFFF;
+
+        .photo {
+            width: 405px;
+            height: 300px;
+        }
+
+        .btn {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            cursor: pointer;
+            color: #111827;
+            background: #AADEA8;
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 24px 0 0 24px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            width: 285px;
+            height: 68px;
+            padding: 8px 0 0 24px;
+            color: #1F2937;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            padding: 7px 0 0 24px;
+            width: 317px;
+            height: 48px;
+            color: #4B5563;
+        }
+
+        .link {
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+        }
+    }
+
+    .blog-3 {
+        width: 405px;
+        height: 604px;
+        background-color: #FFFFFF;
+
+        .photo {
+            width: 405px;
+            height: 300px;
+        }
+
+        .btn {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            cursor: pointer;
+            color: #111827;
+            background: #AADEA8;
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 24px 0 0 24px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            width: 287px;
+            height: 101px;
+            padding: 8px 0 0 24px;
+            color: #1F2937;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            padding: 7px 0 0 24px;
+            width: 317px;
+            height: 48px;
+            color: #4B5563;
+        }
+
+        .link {
+            display: flex;
+            align-items: center;
+            margin-top: 46px;
+        }
+    }
+
+    .learning {
+        margin-top: 123px;
+
+        h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            width: 630px;
+            height: 54px;
+            margin: 29px 355px 0 355px;
+            color: #FFFFFF;
+        }
+
+        .link-1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            display: inline-block;
+            padding: 13px 25px;
+            background: #22A45A;
+            text-decoration: none;
+            margin: 41px 0 0 519px;
+            border: 1px solid #22A45A;
+            border-radius: 8px;
+        }
+
+        .link-2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration: none;
+            padding: 13px 25px;
+            background: #FFFFFF;
+            display: inline-block;
+            margin: 41px 0 0 16px;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            color: #1F2937;
+        }
+    }
+}

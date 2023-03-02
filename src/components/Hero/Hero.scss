@@ -1,0 +1,92 @@
+.hero-section {
+    height: 738px;
+    background: #00353B;
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 72px;
+    }
+
+    .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 67px;
+        color: #FFFFFF;
+    }
+
+    .text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        padding-top: 27px;
+        color: #FFFFFF;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 39px;
+    }
+
+    .btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #22A45A;
+        padding: 13px 25px;
+        border: 1px solid #22A45A;
+        border-radius: 8px;
+    }
+
+    .watch {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 16px;
+    }
+
+    .watch-icon {
+        margin-left: 4px;
+    }
+
+    .users {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 50px;
+    }
+
+    .photo {
+        img {
+            width: 44px;
+            height: 44px;
+        }
+    }
+
+    .info {
+        margin-left: 18px;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF
+        }
+    }
+
+    .photo {
+        .hero-photo {
+            width: 600px;
+            height: 640px;
+        }
+    }
+}

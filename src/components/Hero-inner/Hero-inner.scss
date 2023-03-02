@@ -1,0 +1,66 @@
+.hero-inner {
+    height: 450px;
+    background: #00353B;
+
+    .center {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 60px;
+        color: #FFFFFF;
+    }
+
+    .box {
+        margin-top: 164px;
+        background: #FCD8CA;
+        border-radius: 24px;
+    }
+
+    .btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #1F2937;
+        display: inline-block;
+        padding: 4px 8px;
+        margin: 64px 601px 0 602px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        text-align: center;
+        padding-top: 11px;
+        color: #1F2937;
+    }
+
+    .text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        padding: 29px 275px 0 275px;
+        color: #374151;
+    }
+
+    .link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #1F2937;
+        display: inline-block;
+        margin: 39px 581px 64px 581px;
+        text-decoration: none;
+        padding: 13px 25px;
+        border: 1px solid #1F2937;
+        border-radius: 8px;
+    }
+}
